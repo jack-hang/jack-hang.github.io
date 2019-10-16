@@ -1,0 +1,282 @@
+/*1.公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+	
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fr .icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 26px;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.style-red {
+	color: #c81623;
+}
+.spcaer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 8px 12px 0;
+}
+/*顶部快捷导航*/
+.shortcut {
+	height: 30px;
+	line-height: 30px;
+	background-color: #f1f1f1;
+}
+.shortcut li {
+	float: left;
+}
+/*header开始*/
+.header {
+	position: relative;
+	height: 105px;
+	/*background-color: deeppink;*/
+}
+.logo {
+	position: absolute;
+	top: 50%;
+	margin-top: -28px;
+	width: 175px;
+	height: 56px;
+	
+}
+.logo a {
+	display: block;
+	width: 175px;
+	height: 56px;
+	background: url(../img/logo.png) no-repeat;
+	font-size: 0;
+}
+.search {
+	position: absolute;
+	margin-left: 348px;
+	margin-top: 25px;
+	width: 540px;
+	height: 35px;
+	/*background-color: pink;*/
+}
+.search input {
+	float: left;
+	width: 445px;
+	height: 32px;
+	border: none;
+	border: 2px solid #b1191a;
+	border-right: none;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #c1c1c1;
+}
+.search button {
+	float: left;
+	width: 82px;
+	height: 36px;
+	border: none;
+	background-color: #b1191a;
+	font-size: 16px;
+	color: #fff;
+}
+.hotwords {
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hotwords a {
+	margin: 0 10px;
+}
+.shopcar {
+	position: absolute;
+	width: 140px;
+	height: 35px;
+	background-color: #f7f7f7;
+	/*right: 0;*/
+	top: 25px;
+	right: 63px;
+	line-height: 35px;
+	text-align: center;
+}
+.car {
+	font-family: 'icomoon';
+	color: #d94f4f;
+	margin-right: 5px;
+}
+.arrow {
+	font-family: 'icomoon';
+	margin-left: 5px;
+}
+.count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	/*width: 16px;*/
+	height: 16px;
+	line-height: 16px;
+	background-color: #d94f4f;
+	padding:0 5px;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 8px 8px 8px 0;
+}
+/*header结束*/
+/*nav开始*/
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+}
+.dorpdown {
+	float: left;
+	width: 209px;
+	height: 45px;
+	background-color: pink;
+}
+.dorpdown .dt {
+	height: 100%;
+	background-color: #b1191a;
+	line-height: 45px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+.dorpdown .dd {
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+
+.dorpdown li {
+	height: 31px;
+	line-height: 31px;
+	margin-left: 1px;
+	padding: 0 10px;
+}
+.dorpdown a {
+	font-size: 14px;
+	color: #fff;
+}
+.dorpdown i {
+	float: right;
+	font-family: 'icomoon';
+	font-size: 18px;
+	color: #fff;
+}
+.dorpdown li:hover {
+	background-color: #fff;
+}
+.dorpdown li:hover a {
+	color: #cb343c;
+}
+.navitems {
+	float: left;
+	height: 45px;
+	/*background-color: pink;*/
+	margin-left: 10px;
+}
+.navitems li {
+	float: left;
+	line-height: 45px;
+	padding: 0 25px;
+	font-size: 16px;
+	color: #333;
+}
+/*nav结束*/
+/*footer开始*/
+.footer {
+	height: 416px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+.mod_service {
+	height: 79px;
+	/*background-color: pink;*/
+	border-bottom: 2px solid #ccc;
+}
+.mod_service li {
+	float: left;
+	width: 240px;
+}
+.mod_service_zheng {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat -253px -3px;
+	margin-left: 35px;
+}
+.mod_service_tit {
+	float: left;
+	margin-left: 5px;
+}
+.mod_service_tit h5 {
+	margin: 5px 0;
+}
+.mod_service_kuai {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat -254px -54px;
+	margin-left: 35px;
+}
+.mod_service_bao {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat -256px -105px;
+	margin-left: 35px;
+}
+.mod_help {
+	height: 188px;
+	border-bottom:2px solid #ccc; 
+}
+.mod_help dl {
+	float: left;
+	width: 150px;
+	padding: 20px 0 0 50px;
+}
+.mod_help dt {
+	font-size: 16px;
+	color: #333;
+}
+.mod_help dd {
+	padding-bottom: 5px;
+}
+.mod_help .erweima dt, 
+.mod_help .erweima p {
+	padding-left: 15px;
+}
+.mod_help .erweima p {
+	padding-top: 5px;
+}
+.mod_copyright {
+	text-align: center;
+}
+.mod_copyright_link {
+	padding: 20px 0 15px 0;
+}
+.mod_copyright_info {
+	/*line-height: 18px;*/
+}
+/*footer结束*/
+/*.main {
+	height: 1000px;
+}*/
+
+
+
+
